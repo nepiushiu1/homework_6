@@ -785,7 +785,7 @@ textarea::placeholder {
 }
 
 .subscription {
-  margin-left: 93px;
+  margin-left: auto;
 }
 .subscription-footer {
   display: flex;
