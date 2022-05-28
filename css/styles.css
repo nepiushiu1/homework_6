@@ -258,7 +258,7 @@ img {
 }
 
 .user-data {
-  padding-top: 12px;
+  margin-top: 12px;
   text-align: left;
 }
 .data {
@@ -299,6 +299,7 @@ textarea {
   padding: 0;
   outline: transparent;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 12px 16px;
 }
 
 textarea:hover,
@@ -307,7 +308,6 @@ textarea:focus {
 }
 
 textarea::placeholder {
-  padding: 12px 16px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
@@ -315,7 +315,7 @@ textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
 .agreement {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .agreement label {
   display: flex;
@@ -368,6 +368,10 @@ textarea::placeholder {
   border: none;
   fill: rgb(255, 255, 255);
   background-color: rgb(33, 150, 243);
+}
+
+.checkbox:focus + .span-icon-checkbox {
+  border-color: rgb(33, 150, 243);
 }
 
 .icon-checkbox {
@@ -784,6 +788,7 @@ textarea::placeholder {
   margin-left: 93px;
 }
 .subscription-footer {
+  display: flex;
   margin-top: 20px;
 }
 .subscription-window {
@@ -798,7 +803,7 @@ textarea::placeholder {
   border-radius: 4px;
   margin-right: 11px;
 }
-.subscription-botton {
+.subscription-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88em;

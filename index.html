@@ -141,10 +141,10 @@
                           <use href="./images/sprite.svg#icon-Vector-1"></use>
                         </svg>
                       </span>
-                      <p class="checkbox-text">
+                      <span class="checkbox-text">
                         Соглашаюсь с рассылкой и принимаю
                         <a href="" class="link-to-contract">Условия договора</a>
-                      </p>
+                      </span>
                     </label>
                   </div>
 
@@ -601,15 +601,14 @@
         <div class="subscription">
           <h3 class="title-footer">Подпишитесь на рассылку</h3>
           <form class="subscription-footer">
-            <label class="subscription-window">
-              <input type="email" name="mail" placeholder="E-meil" />
-              <button type="submit" class="subscription-botton">
-                Подписаться<span
-                  ><svg class="button-logo-fotter" width="24" height="24">
-                    <use href="./images/sprite.svg#icon-send"></use></svg
-                ></span>
-              </button>
-            </label>
+            <label class="subscription-window" for="email"></label>
+            <input type="email" name="mail" placeholder="E-meil" id="email" />
+            <button type="submit" class="subscription-btn">
+              Подписаться<span
+                ><svg class="button-logo-fotter" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-send"></use></svg
+              ></span>
+            </button>
           </form>
         </div>
       </div>
